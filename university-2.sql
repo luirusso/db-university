@@ -44,4 +44,4 @@ WHERE `teacher_id` = 44;
 SELECT * 
 FROM `students`
 INNER JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id`
-ORDER BY `students`.`name`, `students`.`surname` ASC;
+ORDER BY `students`.`surname`, `students`.`name` ASC;
