@@ -1,3 +1,7 @@
+<?php 
+require_once __DIR__ . '/partials/scripts/database.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
